@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,500,700|Lato");
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.icon {
+  margin-right: 10px;
+  color: white;
+}
+
+.icon-webpage {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  color: #1D3156;
+}
+
+.intro-header {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: linear-gradient(to right, rgba(46, 68, 78, 0.83) 1%, rgba(16, 81, 112, 0.95) 37%, rgba(28, 51, 87, 0.91) 91%, rgba(29, 49, 86, 0.93) 94%), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/Screen%20Shot%202017-01-02%20at%209.26.36%20PM.png) no-repeat center center;
+  background-size: cover;
+}
+
+.bottom-triangle {
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+  height: 30%;
+  width: 50%;
+  background: #1D3156;
+  -webkit-clip-path: polygon(50% 43%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 43%, 0% 100%, 100% 100%);
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 15%;
+  padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+  color: #FDC167;
+  font-weight: 100;
+  font-size: 68px;
+  font-family: "Lato";
+}
+
+#bold {
+  color: #1D3156;
+  font-weight: 700;
+}
+
+.intro-message > h3 {
+  color: #FF8A00;
+  font-size: 26px;
+  font-family: "Open Sans";
+  margin-top: 20px;
+}
+
+#button-a {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "Open Sans";
+  margin-top: 30px;
+  border: solid 6px #ffffff;
+  background: #1D3156;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#button-b {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "Open Sans";
+  margin-top: 10px;
+  float: left;
+  border: solid 6px #ffffff;
+  background: #1D3156;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#button-two {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "Open Sans";
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: solid 6px #ffffff;
+  background: none;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.section-heading-a, .lead-a {
+  text-align: left;
+}
+
+.section-heading-b, .lead-b {
+  text-align: right;
+  color: #FDC167;
+}
+
+.content-section-a {
+  padding: 50px;
+  padding-bottom: 80px;
+  background: #1D3156;
+  text-align: center;
+  color: rgba(209, 247, 207, 0.71);
+}
+
+.content-section-b {
+  padding: 50px;
+  padding-bottom: 80px;
+  background: linear-gradient(to right, rgba(255, 132, 0, 0.92) 1%, rgba(255, 132, 0, 0.95) 37%, #e45721 91%, #e25423 94%);
+  text-align: center;
+  color: #ffffff;
+}
+
+@media all and (max-width: 600px) {
+  .intro-message > h1 {
+    font-size: 38px;
+  }
+
+  .section-heading-a, .lead-a {
+    text-align: center;
+  }
+
+  .section-heading-b, .lead-b {
+    text-align: center;
+  }
+
+  #button-b {
+    float: none;
+  }
+}
